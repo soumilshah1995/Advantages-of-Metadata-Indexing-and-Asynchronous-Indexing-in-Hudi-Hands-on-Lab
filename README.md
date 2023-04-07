@@ -98,7 +98,7 @@ hudi_part_write_config = {
     , "hoodie.clean.async": "false"
     , "hoodie.clustering.async.enabled": "false"
     , "hoodie.metadata.enable": "true"
-    , "hoodie.metadata.index.async": "true"
+    , "hoodie.metadata.index.async": "false"
     , "hoodie.metadata.index.column.stats.enable": "true"
     ,"hoodie.metadata.index.check.timeout.seconds":"60"
     ,"hoodie.write.concurrency.mode":"optimistic_concurrency_control"
